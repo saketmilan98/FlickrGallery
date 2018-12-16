@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FlickrGallery</string>
+    <string name="aboutmsg">This app uses Retrofit library for parsing Json data from Flickr api for getting recent images and particular images by searching.\nVersion: 1.0\n\nDeveloper name: SAKET MILAN\nContact: saketmilan77@gmail.com.</string>
+</resources>
