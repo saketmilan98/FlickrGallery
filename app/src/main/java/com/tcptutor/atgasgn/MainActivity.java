@@ -91,11 +91,11 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private void get Photo(String m ,String ss) {
+    private void getPhoto(String m ,String ss) {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(api.BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create()) //Here we are using the GsonConverterFactory to directly convert json data to object
+                .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
         api api = retrofit.create(api.class);
